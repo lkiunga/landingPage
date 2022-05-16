@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+
+p{
+    font-size: 22px;
+}
+
+.header{
+    background-color:#e27396;
+    margin: 0px;
+    margin-right: 0px;
+    border: 0px;
+    padding: 40px 100px 20px;
+}
+
+.headerContent{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.logo img{
+    width: 50px; 
+    height: 50px; 
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 6px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #090808;
+}
+
+.headerContent2{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #e4d2d2;
+}
+
+.leftContent{
+    font-size: 18px;
+    color: #cecbcb;
+}
+.leftContent p{
+    max-width: 500px;
+}
+
+button{
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.firstImage img{
+    display: flex;
+    width: 250px; 
+    height: 200px;   
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ea9ab2;
+}
+
+h2{
+    margin: 0px;
+    padding: 30px;
+    font-size: 32px;
+    font-weight: 700px;
+    color: #e4d2d2;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    flex:1;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+}
+
+.content2{
+    background-color: #ddbfc8;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.content2 p{
+    margin: 0px;
+    padding: 50px 50px 10px;
+    
+}
+.content2 strong{
+    align-self: flex-end;
+    padding: 10px;
+}
+
+.content3{
+    background-color: #ea9ab2;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e1094a;
+    margin: 50px;
+    padding: 12px;
+    border-radius: 15px;
+    width:100%;
+}
+
+.left p{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.right button{
+    width: fit-content;
+}
+
+footer{
+    background-color: #e27396;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    margin: 0px;
+    padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
